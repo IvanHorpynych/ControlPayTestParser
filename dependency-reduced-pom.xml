@@ -11,7 +11,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.remoteworker.MainFrame</mainClass>
+              <mainClass>ua.controlpay.Engine</mainClass>
             </manifest>
           </archive>
         </configuration>

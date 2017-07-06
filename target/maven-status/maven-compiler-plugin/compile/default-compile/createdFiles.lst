@@ -1,2 +1,6 @@
-ua\controlpay\Parser$1.class
-ua\controlpay\Parser.class
+ua\controlpay\SeleniumParser.class
+ua\controlpay\JauntParser.class
+ua\controlpay\SeleniumParser$1.class
+ua\controlpay\JSONParser.class
+ua\controlpay\Engine.class
+ua\controlpay\JauntParser$1.class
