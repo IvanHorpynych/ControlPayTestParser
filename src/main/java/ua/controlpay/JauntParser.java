@@ -7,8 +7,8 @@ import com.jaunt.component.Form;
 
 import java.util.HashMap;
 
-public class Parser {
-    public HashMap<String,Integer> jauntParser(String article){
+public class JauntParser {
+    protected HashMap<String,Integer> parser(String article){
         try{
             UserAgent userAgent = new UserAgent();
             userAgent.visit("http://rozetka.com.ua");
@@ -35,7 +35,4 @@ public class Parser {
             return null;
         }
     }
-        public static void main(String[] args){
-
-        }
-    }
+}
