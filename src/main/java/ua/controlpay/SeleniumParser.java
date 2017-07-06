@@ -56,8 +56,10 @@ public class SeleniumParser {
 
         if (priceValue == 0 && reviewsValue == 0 && starsValue == 0) {
             new org.openqa.selenium.NoSuchElementException("Error!");
+            webDriver.quit();
             return null;
         }
+        webDriver.quit();
         return new HashMap<String, Integer>() {{
             put("price", priceValue);
             put("reviews", reviewsValue);
